@@ -18,8 +18,8 @@ const BoxList = styled.div`
 const SingleBox = styled.div`
   background-color: #e2f6fc;
   border: 1px solid #50c2e3;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   border-radius: 5px;
   &:hover {
     background-color: #cef4ff;
@@ -30,22 +30,20 @@ const SingleBox = styled.div`
 const Date = styled.div`
   text-align: center;
   color: #2a34af;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 `;
 
 const Icon = styled.img`
   text-align: center;
-  color: #2a34af;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 10px;
+  max-width: 100%;
+  margin: 5px 0px;
 `;
 
 const Temperatures = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 `;
 
 const Max = styled.div`

@@ -6,7 +6,7 @@ const Informations = styled.div`
   background-color: #e2f6fc;
   border: 1px solid #50c2e3;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 5px;
 `;
 
