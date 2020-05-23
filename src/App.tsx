@@ -32,6 +32,10 @@ const Informations = styled.div`
   border-radius: 5px;
 `;
 
+const Title = styled.h1`
+  color: #50c2e3;
+`;
+
 class App extends Component<IProps, IState> {
   state: IState = {
     data: [],
@@ -1366,6 +1370,7 @@ class App extends Component<IProps, IState> {
       <div className='App'>
         {this.state.data.length > 0 ? (
           <>
+            <Title className='title'>Weather App</Title>
             <Location className='location'>
               {this.state.locationData.ParentCity.EnglishName},
               {this.state.locationData.Country.EnglishName}
